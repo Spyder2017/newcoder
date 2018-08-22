@@ -3,6 +3,11 @@
 #include <algorithm>
 #include <vector>
 
+/*
+解题思路：对结构体序列按照y升序，x降序排列
+则在寻找“最大的”点时，只需倒序寻找更大的x即可。
+*/
+
 using namespace std;
 
 typedef struct point{
